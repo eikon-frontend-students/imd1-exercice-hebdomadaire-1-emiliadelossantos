@@ -2,8 +2,52 @@
 
 body {
   font-family: "Silkscreen", monospace;
+  background-color: #fff;
+  display: flex;
+  width: 1512px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 7px;
 }
-
+div {
+  border-top: 3px solid #000;
+  border-left: 3px solid #000;
+  width: 460px;
+}
+h1 {
+  padding-left: 23px;
+  flex-shrink: 0;
+  color: #000;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0px;
+}
+p {
+  padding-left: 28px;
+  padding-bottom: 17px;
+  width: 402px;
+  height: 60px;
+  flex-shrink: 0;
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0px;
+}
 img {
   display: block;
+  width: 460px;
+  height: 215px;
+  background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+a {
+  color: #000;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
 }
